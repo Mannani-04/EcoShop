@@ -1,0 +1,13 @@
+#card-product{
+    transition: all 0.3s;
+}
+#card-product:hover{
+    transform: scale(1.15);
+}
+#btnpanier {
+    position: fixed;
+    bottom:10px; /* Positionnement depuis le haut */
+    left: 50%;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    z-index: 1050; /* S'assurer que le bouton reste au-dessus des autres éléments */
+}
